@@ -7,7 +7,7 @@
 
 TicketX is a decentralized application (dApp) that allows users to book tickets using cryptocurrency. The system calculates fare based on distance, processes payments through smart contracts, and stores ticket data both on-chain and in a traditional database.
 
-![TicketX Screenshot](https://via.placeholder.com/800x400?text=TicketX+Screenshot)
+
 
 ## Features
 
