@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Hardhat build files
+cache/
+artifacts/
+
+# TypeChain generated files
+typechain/
+typechain-types/
+
+# Solidity coverage reports
+coverage/
+coverage.json
+
+# Hardhat Ignition local deployments (do NOT commit local network data)
+ignition/deployments/chain-31337
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# IDE / OS specific files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
