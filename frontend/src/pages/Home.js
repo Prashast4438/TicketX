@@ -198,7 +198,7 @@ const Home = () => {
       setError(null);
       
       // Call backend API to calculate distance
-      const response = await axios.get(`${process.env.REACT_APP_API_URL || 'http://localhost:3001'}/api/distance`, {
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}`{
         params: { source, destination }
       });
       
@@ -245,7 +245,7 @@ const Home = () => {
       const distanceInKm = Math.round(distance);
       try {
         // Use rate from environment variable
-        const ratePerKmWei = process.env.REACT_APP_RATE_PER_KM_WEI || '100000000000';
+        const ratePerKmWei = process.env.REACT_APP_RATE_PER_KM_WEI ;
         const ratePerKm = ethers.getBigInt(ratePerKmWei);
         console.log('Using rate from environment:', ratePerKm.toString());
         
